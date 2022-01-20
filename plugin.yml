@@ -1,0 +1,16 @@
+name: RandomTP
+main: com.ylouscraft.rtp.Main
+author: Avenger
+website: https://ylouscraft.ru/
+description: Plugin for random teleportation
+version: 1.1.2
+commands:
+  rtpn:
+    description: Random teleportation near a player
+    permission: rtpn.tp
+    permission-message: You do not have permission to use this command.
+    usage: "Usage: /<command>"
+pemissions:
+  rtpn.tp:
+    desription: Allow player teleportation
+    default: false

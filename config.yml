@@ -1,0 +1,8 @@
+distance-min: 30 #Min distance for teleportation near a player
+distance-max: 100 #Max distance for teleportation near a player
+world-size: 5000 #World side size
+messages:
+  before: "I choose a suitable location for teleportation..." #Send before tp
+  after: "You are successfully teleported, have a good game." #Send after tp
+  after_near_player: "I teleported you to {NEAR}. You are {DIST} meters away from him. Have a good game" #Send after tp if player teleported to another player
+  console: "Only player can use this command" #Send if console use this command
